@@ -5,7 +5,7 @@ import Card from "../components/Card";
 const movies = [
   {
     id: 1,
-    title: "Interstellar",
+    title: "Interestelar",
     genre: "Ficção científica",
     year: 2014,
     rating: 8.7,
@@ -16,10 +16,10 @@ const movies = [
   },
   {
     id: 2,
-    title: "La La Land",
+    title: "La La Land: Cantando Estações",
     genre: "Romance",
     year: 2016,
-    rating: 8.0,
+    rating: 9.0,
     image:
       "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
     description:
@@ -27,7 +27,7 @@ const movies = [
   },
   {
     id: 3,
-    title: "The Batman",
+    title: "Batman",
     genre: "Ação",
     year: 2022,
     rating: 7.8,
@@ -38,10 +38,10 @@ const movies = [
   },
   {
     id: 4,
-    title: "Get Out",
+    title: "Corra!",
     genre: "Terror",
     year: 2017,
-    rating: 7.8,
+    rating: 9.0,
     image:
       "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
     description:
@@ -49,10 +49,10 @@ const movies = [
   },
   {
     id: 5,
-    title: "Inception",
+    title: "A Origem",
     genre: "Ficção científica",
     year: 2010,
-    rating: 8.8,
+    rating: 7.0,
     image:
       "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
     description:
@@ -63,7 +63,7 @@ const movies = [
     title: "Barbie",
     genre: "Comédia",
     year: 2023,
-    rating: 7.0,
+    rating: 5.0,
     image:
       "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
     description:
@@ -71,7 +71,7 @@ const movies = [
   },
   {
     id: 7,
-    title: "The Godfather",
+    title: "O Poderoso Chefão",
     genre: "Drama",
     year: 1972,
     rating: 9.2,
@@ -82,10 +82,10 @@ const movies = [
   },
   {
     id: 8,
-    title: "Pulp Fiction",
+    title: "Pulp Fiction: Tempo de Violência",
     genre: "Crime",
     year: 1994,
-    rating: 8.9,
+    rating: 7.0,
     image:
       "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
     description:
@@ -93,21 +93,21 @@ const movies = [
   },
   {
     id: 9,
-    title: "The Truman Show",
-    genre: "Drama",
-    year: 1998,
-    rating: 8.2,
+    title: "Orgulho e Preconceito",
+    genre: "Romance",
+    year: 2005,
+    rating: 10.0,
     image:
-      "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwrtkQy7.jpg",
+      "https://image.tmdb.org/t/p/w500/sGjIvtVvTlWnia2zfJfHz81pZ9Q.jpg",
     description:
-      "Um homem descobre que toda a sua vida pode estar sendo transmitida para o mundo.",
+      "Elizabeth Bennet e Mr. Darcy enfrentam diferenças sociais, orgulho e preconceitos enquanto descobrem seus verdadeiros sentimentos.",
   },
   {
     id: 10,
-    title: "Spirited Away",
+    title: "A Viagem de Chihiro",
     genre: "Fantasia",
     year: 2001,
-    rating: 8.6,
+    rating: 4.0,
     image:
       "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
     description:
@@ -115,51 +115,51 @@ const movies = [
   },
   {
     id: 11,
-    title: "The Notebook",
-    genre: "Romance",
-    year: 2004,
-    rating: 7.8,
+    title: "Adoráveis Mulheres",
+    genre: "Drama",
+    year: 2019,
+    rating: 10.0,
     image:
-      "https://image.tmdb.org/t/p/w500/rNzQyW4f8B8cQeg7vV7F8w3w2Wm.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVFToOdjxh0kkwuCSPgCr-wwpcyswqjezt6L0m1XqZ_hNEALW1s_Kl5qk6&s=10",
     description:
-      "Um casal enfrenta diferenças sociais e os desafios do tempo para viver seu amor.",
+      "Quatro irmãs seguem caminhos diferentes enquanto enfrentam os desafios da vida, da família e do amor.",
   },
   {
     id: 12,
-    title: "The Shining",
-    genre: "Terror",
-    year: 1980,
-    rating: 8.4,
+    title: "Jogos Vorazes",
+    genre: "Ação",
+    year: 2012,
+    rating: 10.0,
     image:
-      "https://image.tmdb.org/t/p/w500/9fgh3Ns1iRzlQNYuJyK0ARQZU7w.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2R0aPi_WkmZsc3ZpSCTXQ8R2zZj3WlQARMw6C9f57HGes6pbGnR2Tvao&s=10",
     description:
-      "Uma família se hospeda em um hotel isolado onde acontecimentos assustadores começam a acontecer.",
+      "Katniss Everdeen se oferece para participar de uma competição mortal em nome de sua irmã.",
   },
   {
     id: 13,
-    title: "Whiplash",
-    genre: "Drama",
-    year: 2014,
-    rating: 8.5,
+    title: "Homem-Aranha: Sem Volta Para Casa",
+    genre: "Ação",
+    year: 2021,
+    rating: 9.8,
     image:
-      "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeNOVIE.jpg",
+      "https://static.wikia.nocookie.net/dublagem/images/9/9a/Homem-Aranha_-_Sem_Volta_Para_Casa.png/revision/latest/scale-to-width-down/1200?cb=20241116125321&path-prefix=pt-br",
     description:
-      "Um jovem baterista busca alcançar a excelência sob a orientação de um professor extremamente exigente.",
+      "Peter Parker enfrenta as consequências de ter sua identidade revelada e precisa lidar com ameaças de diferentes universos.",
   },
   {
     id: 14,
-    title: "The Grand Budapest Hotel",
-    genre: "Comédia",
-    year: 2014,
-    rating: 8.1,
+    title: "O Castelo Animado",
+    genre: "Fantasia",
+    year: 2004,
+    rating: 8.2,
     image:
-      "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+      "https://static.wikia.nocookie.net/dublagem/images/1/1c/CasteloAnimado.jpg/revision/latest?cb=20241009213143&path-prefix=pt-br",
     description:
-      "As aventuras de um concierge e seu jovem funcionário em um luxuoso hotel europeu.",
+      "Uma jovem transformada em uma senhora idosa encontra um misterioso castelo mágico e seu excêntrico proprietário.",
   },
   {
     id: 15,
-    title: "Joker",
+    title: "Coringa",
     genre: "Crime",
     year: 2019,
     rating: 8.4,
@@ -170,10 +170,10 @@ const movies = [
   },
   {
     id: 16,
-    title: "Dune",
+    title: "Duna",
     genre: "Ficção científica",
     year: 2021,
-    rating: 8.0,
+    rating: 7.0,
     image:
       "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
     description:
@@ -184,7 +184,7 @@ const movies = [
     title: "Titanic",
     genre: "Romance",
     year: 1997,
-    rating: 7.9,
+    rating: 10.0,
     image:
       "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
     description:
@@ -192,7 +192,7 @@ const movies = [
   },
   {
     id: 18,
-    title: "Parasite",
+    title: "Parasita",
     genre: "Drama",
     year: 2019,
     rating: 8.5,
@@ -200,6 +200,39 @@ const movies = [
       "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
     description:
       "Uma família começa a se aproximar de uma família rica em uma história cheia de reviravoltas.",
+  },
+  {
+    id: 19,
+    title: "Pequena Miss Sunshine",
+    genre: "Comédia",
+    year: 2006,
+    rating: 7.8,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_SIqqPM3V0-MR0uImKUNdRiqFpOxQJx9uHFN40FX9dZP8-4GcXbNO0vl0&s=10",
+    description:
+      "Uma família peculiar atravessa o país para levar a pequena Olive a um concurso de beleza.",
+  },
+  {
+    id: 20,
+    title: "As Vantagens de Ser Invisível",
+    genre: "Drama",
+    year: 2012,
+    rating: 9.5,
+    image:
+      "https://upload.wikimedia.org/wikipedia/pt/6/63/As-Vantagens-de-ser-Invisivel.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original",
+    description:
+      "Um adolescente tímido encontra amizade e novas experiências enquanto tenta superar as dificuldades do passado.",
+  },
+  {
+    id: 21,
+    title: "O Auto da Compadecida",
+    genre: "Comédia",
+    year: 2000,
+    rating: 8.6,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BYzE4YzlmNjctNGFmOC00Nzg3LWFlOWQtMDU4YTA0MTJhODY3XkEyXkFqcGc@._V1_.jpg",
+    description:
+      "João Grilo e Chicó enfrentam confusões e situações inesperadas em uma divertida história do sertão brasileiro.",
   },
 ];
 
@@ -209,11 +242,11 @@ const Home = ({ favorites, onToggleFavorite }) => {
 
   const genres = [
     "Todos",
-    ...new Set(movies.map(movie => movie.genre)),
+    ...new Set(movies.map((movie) => movie.genre)),
   ];
 
   const filteredMovies = useMemo(() => {
-    return movies.filter(movie => {
+    return movies.filter((movie) => {
       const matchesSearch = movie.title
         .toLowerCase()
         .includes(search.toLowerCase());
@@ -228,33 +261,32 @@ const Home = ({ favorites, onToggleFavorite }) => {
 
   return (
     <main>
-
+      {/* HERO */}
       <section className="border-b border-[#8a5a2b] bg-[#3b0d18] px-6 py-16">
         <div className="mx-auto max-w-7xl">
-
           <p className="mb-4 text-xs font-bold tracking-[0.4em] text-[#d1a45b]">
             LUMÈRE FILM ARCHIVE
           </p>
 
-        <h1 className="max-w-4xl font-serif text-5xl italic leading-tight text-[#F3DFA2] md:text-7xl">
-  Encontre histórias
-  <br />
-  que ficam.
-</h1>
+          <h1 className="max-w-4xl font-serif text-5xl italic leading-tight text-[#F3DFA2] md:text-7xl">
+            Encontre histórias
+            <br />
+            que ficam.
+          </h1>
 
           <p className="mt-6 max-w-xl leading-7 text-[#d8c5a3]">
             Um espaço para descobrir, guardar e revisitar
             os filmes que deixam alguma coisa depois dos créditos.
           </p>
 
-          {/* PESQUISA EM CIMA */}
+          {/* PESQUISA */}
           <div className="mt-10 flex items-center gap-3 border border-[#8a5a2b] bg-[#2b080f] px-5 py-4">
             <FaSearch className="text-[#d1a45b]" />
 
             <input
               type="text"
               value={search}
-              onChange={event => setSearch(event.target.value)}
+              onChange={(event) => setSearch(event.target.value)}
               placeholder="Pesquise por um filme..."
               className="w-full bg-transparent text-[#f2e5c9] outline-none placeholder:text-[#8f7765]"
             />
@@ -262,12 +294,13 @@ const Home = ({ favorites, onToggleFavorite }) => {
         </div>
       </section>
 
+      {/* CATÁLOGO */}
       <section className="mx-auto w-full max-w-[1800px] px-6 py-16">
-
         <div className="mb-8 flex flex-col justify-between gap-6 md:flex-row md:items-center">
           <div>
             <div className="mb-2 flex items-center gap-2 text-[#d1a45b]">
               <FaSlidersH />
+
               <span className="text-xs tracking-[0.2em]">
                 EXPLORE
               </span>
@@ -283,8 +316,9 @@ const Home = ({ favorites, onToggleFavorite }) => {
           </p>
         </div>
 
+        {/* FILTROS */}
         <div className="mb-12 flex flex-wrap gap-3">
-          {genres.map(genre => (
+          {genres.map((genre) => (
             <button
               key={genre}
               onClick={() => setSelectedGenre(genre)}
@@ -299,9 +333,10 @@ const Home = ({ favorites, onToggleFavorite }) => {
           ))}
         </div>
 
+        {/* FILMES */}
         {filteredMovies.length > 0 ? (
           <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
-            {filteredMovies.map(movie => (
+            {filteredMovies.map((movie) => (
               <Card
                 key={movie.id}
                 movie={movie}
